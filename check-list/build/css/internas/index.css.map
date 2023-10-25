@@ -1,0 +1,1 @@
+{"version":3,"sources":["internas/index.scss","internas/index.css"],"names":[],"mappings":"AACI,iBAEI,4BAAA,CADA,UCCR","file":"index.css","sourcesContent":[".lista-tareas{\n    li{\n        color: aqua;\n        border-bottom:1px solid black ;\n    }\n}",".lista-tareas li {\n  color: aqua;\n  border-bottom: 1px solid black;\n}"]}

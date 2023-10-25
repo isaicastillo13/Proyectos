@@ -1,0 +1,54 @@
+.form-actTarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+     label, input, textarea,select{
+        margin:10px;
+        width: 30%;
+        
+     }
+     label, input,select{
+        margin:10px;
+        width: 30%;
+        height: 50px;
+     }
+
+     label{
+        font-size: 2rem;
+    }
+
+    input{
+        border-radius: 16px;
+    }
+
+    .btn-form{
+        #btn-editar, 
+        #btn-actTarea,
+        #btn-cancelar,
+        #btn-eliminar{
+            margin: 10px;
+            border-radius:16px;
+            width: 150px;
+            height: 40px;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        #btn-editar{
+            background-color: $azul;
+        }
+
+        #btn-actTarea,#btn-eliminar{
+            background-color: $azul;
+            display:none;
+        }
+
+        #btn-cancelar,#btn-eliminar{
+            background-color: $rojo;
+        }
+
+    }
+}

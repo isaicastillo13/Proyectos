@@ -1,0 +1,52 @@
+.form-agregarTarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     label, input, textarea,select{
+        margin:10px;
+        width: 30%;
+        
+     }
+     label, input,select{
+        margin:10px;
+        width: 30%;
+        height: 50px;
+     }
+
+     label{
+        font-size: 2rem;
+    }
+
+    input{
+        border-radius: 16px;
+    }
+
+    .btn-form{
+        #btn-agregarTarea, 
+        #btn-cancelar{
+            margin: 10px;
+            border-radius:16px;
+            width: 150px;
+            height: 40px;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        #btn-agregarTarea{
+            background-color: $azul;
+            :hover {
+                box-shadow: inset 0 100px 0 0 $azulMarino;
+                color: white;
+              }
+        }
+
+       
+
+        #btn-cancelar{
+            background-color: $rojo;
+        }
+
+    }
+}
